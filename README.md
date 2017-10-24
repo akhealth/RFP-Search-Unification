@@ -8,7 +8,11 @@ Offers are due by November 16, 2017, at 3:00 pm Alaska prevailing time.
 
 ## Background
 
-The background for this project as a whole is detailed in the [README](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/blob/master/README.md) from the main Alaska Modernization repo. In short, for this first acquisition, we want to focus on providing value to our beneficiaries and constituents and provide a means to transition to a modular procurement model and agile development methodology. The product team has decided that building a robust person search would create a positive impact in a way that introduces the least risk to existing systems. We will learn a lot during this first acquisition that will help us tackle more invasive and risky acquisitions later on.
+The background for this project as a whole is detailed in the [README](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/blob/master/README.md) from the main Alaska Modernization repo. We've been updating vendors on our acquisition strategy and progress in a [file](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/tree/master/vendor-info) dedicated to vendor outreach and communication.  This is the first of many procurements associated with the broader need to modernize Alaska's DHSS products.  Our response to previous questions about our approach can be found in the [issues tab of the main repo.](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/issues)    
+
+For this first acquisition, we want to focus on providing value to our beneficiaries and constituents and provide a means to transition to a modular procurement model and agile development methodology. The product team has decided that building a robust person search would create a positive impact in a way that introduces the least risk to existing systems. We will learn a lot during this first acquisition that will help us tackle more invasive and risky acquisitions later on.
+ 
+_Important note - Questions about this RFP should be [posted here](https://github.com/AlaskaDHSS/RFP-Search-Unification/issues) - and not to the main DHSS project repo._
 
 ### What we're hoping to end up with
 

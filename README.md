@@ -6,6 +6,10 @@ The documents in this repository are posted in Alaska's [IRIS portal](http://doa
 
 Offers are due by November 16, 2017, at 3:00 pm Alaska prevailing time.
 
+## Important note about referenced documentation
+
+You'll notice that we link to a number of working documents in our RFP and related materials.  Interested vendors should be aware that all of these documents are subject to change because Alaska and 18F are continuing to learn more through as we continue prototyping and working with various elements of the existing system to build out our DevSecOps capabilities.  We encourage interested vendors to "Watch" what's going on in [the main DHSS Modernization repo](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization) and in [the DevSecOps repo](https://github.com/AlaskaDHSS/DevSecOpsMvp) to be aware of what we're learning.  However, we don't anticipate anything that we learn or change in this environment to change how an interested vendor would staff up their proposed teams.  As discussed throughout the RFP, we are interested in vendors that are open to such changes without requiring a static set of requirements at the time of the RFP.
+
 ## Background
 
 The background for this project as a whole is detailed in the [README](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/blob/master/README.md) from the main Alaska Modernization repo. We've been updating vendors on our acquisition strategy and progress in a [file](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/tree/master/vendor-info) dedicated to vendor outreach and communication.  This is the first of many procurements associated with the broader need to modernize Alaska's DHSS products.  Our response to previous questions about our approach can be found in the [issues tab of the main repo.](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/issues)    

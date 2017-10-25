@@ -18,7 +18,7 @@ For this first acquisition, we want to focus on providing value to our beneficia
  
 _Important note - Questions about this RFP should be [posted here](https://github.com/AlaskaDHSS/RFP-Search-Unification/issues) - and not to the main DHSS project repo._
 
-### What we're hoping to acheive as a result of this acquistion
+### What we're hoping to achieve as a result of this acquistion
 
 Provide a single view of a client or applicant between the two places that information currently resides
 

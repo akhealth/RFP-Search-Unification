@@ -2,9 +2,9 @@
 
 ## Instructions
 
-The documents in this repository are posted in Alaska's [Vendor Self Service (VSS) portal](https://iris-adv.alaska.gov/webapp/PRDVSS1X1/AltSelfService) under RFP # 180000022. The documents in VSS should always be considered the documents of record. Please submit any questions as GitHub issues in this repository by November 7, 2017 at 4:00 pm Alaska prevailing time. 
+The documents in this repository are posted in Alaska's [Vendor Self Service (VSS) portal](https://iris-adv.alaska.gov/webapp/PRDVSS1X1/AltSelfService) under RFP # 180000022. The documents in VSS should always be considered the documents of record. Please submit any questions as GitHub issues in this repository by November 15, 2017 at 4:00 pm Alaska prevailing time. 
 
-Offers are due by November 16, 2017, at 4:00 pm Alaska prevailing time.
+Offers are due by November 27, 2017, at 4:00 pm Alaska prevailing time.
 
 ## Important note about referenced documentation
 
@@ -42,7 +42,7 @@ We have a budget of $300,000 dollars for completion of this project. Proposals p
 
 ### Contract Term
 
-This contract will last approximately four months from the date of award - approximately December 4, 2017 through March 31, 2018.
+This contract will last approximately four months from the date of award - approximately December 15, 2017 through April 15, 2018.
 
 ## Contents
 

@@ -46,7 +46,14 @@ This contract will last approximately four months from the date of award - appro
 
 ## Contents
 
-1. 
+1. [Request for Proposals](1-Request-for-Proposals.md)
+2. [Quality Assurance Plan](2-QAP.md)
+3. [A discussion of how we work](3-how-we-work.md)
+4. [A discussion of what we've learned so far in our prototyping](4-prototype-findings.md)
+5. [Alaska's IT Requirements for Agile Acquisition](5-Attachment%20A%20-%20DHSS%20IT%20Requirements%20Agile%20Acquisition.md)
+6. [Alaska's IT Standards](6-Attachment%20D%20-%20DHSS%20Information%20Technology%20Standards.pdf)
+7. [Alaska's Person Services](7-Attachment%20E%20-%20Person%20Service.wsdl)
+8. [Data Destruction Information and References](8-Attachment%20F%20-%20Data%20Destruction%20Information%20and%20References.pdf)
 
 ## Contributing
 

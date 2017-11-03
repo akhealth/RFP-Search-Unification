@@ -16,7 +16,7 @@ The background for this project as a whole is detailed in the [README](https://g
 
 For this first acquisition, we want to focus on providing value to our beneficiaries and constituents and provide a means to transition to a modular procurement model and agile development methodology. The product team has decided that building a robust person search would create a positive impact in a way that introduces the least risk to existing systems. We will learn a lot during this first acquisition that will help us tackle more invasive and risky acquisitions later on.
  
-_Important note - Questions about this RFP should be [posted here](https://github.com/AlaskaDHSS/RFP-Search-Unification/issues) - and not to the main DHSS project repo._
+_Important note - Questions about this RFP should be [posted here](issues) - and not to the main DHSS project repo._
 
 ### What we're hoping to achieve as a result of this acquistion
 
@@ -34,7 +34,7 @@ Build the foundation for a performant and flexible search API that can be reused
 
 ### How to respond
 
-We've made every effort to allow for less burden in what we require from interested vendors.  Although the RFP might seem to be pretty extensive, we're asking for limited [written proposal responses](link to Section 5) and believe we'll learn more about your team's approach and offer as part of your verbal presentation.  As discussed in the RFP, we see this presentation to be free flowing vs. formal so that our technical evaluation team can ask questions based on what they've read or heard from your team.
+We've made every effort to allow for less burden in what we require from interested vendors.  Although the RFP might seem to be pretty extensive, we're asking for limited [written proposal responses](1-Request-for-Proposals.md#section-5evaluation-criteria-and-contractor-selection) and believe we'll learn more about your team's approach and offer as part of your verbal presentation.  As discussed in the RFP, we see this presentation to be free flowing vs. formal so that our technical evaluation team can ask questions based on what they've read or heard from your team.
 
 ### Budget
 

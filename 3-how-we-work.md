@@ -143,7 +143,7 @@ We wouldn’t want anyone being mean to us because of an oversight, mistake, or 
 We use [Trello](https://trello.com/b/siAFtoWJ/alaska-medicaid-eligibility-information-system-replacement-eis-r-project) as our Scrum board.
 
 #### GitHub
-We use our [GitHub organization]https://github.com/AlaskaDHSS) for storing both software and collaboratively-maintained text.
+We use our [GitHub organization](https://github.com/AlaskaDHSS) for storing both software and collaboratively-maintained text.
 
 #### Visual Studio Team Services
 We use our [Visual Studio Team Services](https://alaskadhssba.visualstudio.com/) repository much like our GitHub repository, but for repositories that either need to be kept private and for repositories that are deployed to Azure.

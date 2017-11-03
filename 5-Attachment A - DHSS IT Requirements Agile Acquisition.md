@@ -1108,19 +1108,8 @@ supported.
 
 #### Requirement – Desktop Productivity Software Compatibility
 
-> The Offeror must include in their cost proposal the optional
-> contingency cost of one unanticipated browser compatibility version
-> upgrade for the components of the proposed solution where they own the
-> code or are responsible for maintaining it. The Offeror must plan to
-> support DHSS currently deployed desktop productivity suite version(s).
-> The Offeror must review the DHSS standard desktop productivity suite
-> vendor’s lifecycle material published at the time of proposal and
-> include in their proposal a plan to upgrade off of an versions of
-> productivity suite software identified as becoming unsupported during
-> the planned execution of the contract. The Offeror must include in
-> their cost proposal the optional contingency cost of one unanticipated
-> productivity suite software version compatibility upgrade for the
-> proposed application.
+> The Offeror must plan to support DHSS currently deployed desktop 
+> productivity suite version(s). 
 
 #### Requirement – Other Desktop Software and Components
 

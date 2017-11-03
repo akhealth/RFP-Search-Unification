@@ -1075,7 +1075,7 @@ supported.
 #### Requirement – Hardware
 
 > The Offeror must propose a solution that supports currently deployed,
-> or planned for deployment, DHSS end-user hardware.
+ or planned for deployment, DHSS end-user hardware.
 
 #### Requirement – Desktop Access and Configuration
 
@@ -1104,15 +1104,7 @@ supported.
 > Standards \> Software* for currently support browser versions. The
 > required functionality of the solicitation must be fully supported, or
 > the Offeror must include in their proposal the plan cost and
-> activities to make the proposed solution fully supported. The Offeror
-> must review the DHSS standard browser vendor’s published support
-> lifecycle material published at the time of proposal and include in
-> their proposal a plan to upgrade off of any versions of browser that
-> are known to become unsupported during the execution of the contract.
-> The Offeror must include in their cost proposal the optional
-> contingency cost of one unanticipated browser compatibility version
-> upgrade for the components of the proposed solution where they own the
-> code or are responsible for maintaining it.
+> activities to make the proposed solution fully supported.
 
 #### Requirement – Desktop Productivity Software Compatibility
 

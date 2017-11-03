@@ -12,11 +12,11 @@ You'll notice that we link to a number of working documents in our RFP and relat
 
 ## Background
 
-The background for this project as a whole is detailed in the [README](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/blob/master/README.md) from the main Alaska Modernization repo. We've been updating vendors on our acquisition strategy and progress in a [file](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/tree/master/vendor-info) dedicated to vendor outreach and communication.  This is the first of many procurements associated with the broader need to modernize Alaska's DHSS Eligibility Information System.  Our response to previous questions about our approach can be found in the [issues tab of the main repo.](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/issues)    
+The background for this project as a whole is detailed in the [README](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/blob/master/README.md) from the main Alaska Modernization repo. We've been updating vendors on our acquisition strategy and progress in a [file](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/tree/master/vendor-info) dedicated to vendor outreach and communication.  This is the first of many procurements associated with the broader need to modernize Alaska's DHSS Eligibility Information System.  Our response to previous questions about our approach can be found in the [issues tab of the main repo.](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/issues?utf8=%E2%9C%93&q=is%3Aissue%20label%3A%22Vendor%20feedback%22%20)    
 
 For this first acquisition, we want to focus on providing value to our beneficiaries and constituents and provide a means to transition to a modular procurement model and agile development methodology. The product team has decided that building a robust person search would create a positive impact in a way that introduces the least risk to existing systems. We will learn a lot during this first acquisition that will help us tackle more invasive and risky acquisitions later on.
  
-_Important note - Questions about this RFP should be [posted here](https://github.com/AlaskaDHSS/RFP-Search-Unification/issues) - and not to the main DHSS project repo._
+_Important note - Questions about this RFP should be [posted here](issues) - and not to the main DHSS project repo._
 
 ### What we're hoping to achieve as a result of this acquistion
 
@@ -34,7 +34,7 @@ Build the foundation for a performant and flexible search API that can be reused
 
 ### How to respond
 
-We've made every effort to allow for less burden in what we require from interested vendors.  Although the RFP might seem to be pretty extensive, we're asking for limited [written proposal responses](link to Section 5) and believe we'll learn more about your team's approach and offer as part of your verbal presentation.  As discussed in the RFP, we see this presentation to be free flowing vs. formal so that our technical evaluation team can ask questions based on what they've read or heard from your team.
+We've made every effort to allow for less burden in what we require from interested vendors.  Although the RFP might seem to be pretty extensive, we're asking for limited [written proposal responses](1-Request-for-Proposals.md#section-5evaluation-criteria-and-contractor-selection) and believe we'll learn more about your team's approach and offer as part of your verbal presentation.  As discussed in the RFP, we see this presentation to be free flowing vs. formal so that our technical evaluation team can ask questions based on what they've read or heard from your team.
 
 ### Budget
 
@@ -46,7 +46,14 @@ This contract will last approximately four months from the date of award - appro
 
 ## Contents
 
-1. 
+1. [Request for Proposals](1-Request-for-Proposals.md)
+2. [Quality Assurance Plan](2-QAP.md)
+3. [A discussion of how we work](3-how-we-work.md)
+4. [A discussion of what we've learned so far in our prototyping](4-prototype-findings.md)
+5. [Alaska's IT Requirements for Agile Acquisition](5-Attachment%20A%20-%20DHSS%20IT%20Requirements%20Agile%20Acquisition.md)
+6. [Alaska's IT Standards](6-Attachment%20D%20-%20DHSS%20Information%20Technology%20Standards.pdf)
+7. [Alaska's Person Services](7-Attachment%20E%20-%20Person%20Service.wsdl)
+8. [Data Destruction Information and References](8-Attachment%20F%20-%20Data%20Destruction%20Information%20and%20References.pdf)
 
 ## Contributing
 

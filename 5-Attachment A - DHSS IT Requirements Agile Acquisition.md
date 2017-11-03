@@ -1075,7 +1075,7 @@ supported.
 #### Requirement – Hardware
 
 > The Offeror must propose a solution that supports currently deployed,
- or planned for deployment, DHSS end-user hardware.
+> or planned for deployment, DHSS end-user hardware.
 
 #### Requirement – Desktop Access and Configuration
 

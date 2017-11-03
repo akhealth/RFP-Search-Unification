@@ -143,7 +143,7 @@ We wouldn’t want anyone being mean to us because of an oversight, mistake, or 
 We use [Trello](https://trello.com/b/siAFtoWJ/alaska-medicaid-eligibility-information-system-replacement-eis-r-project) as our Scrum board.
 
 #### GitHub
-We use our [GitHub organization](https://github.com/dhssalaska) for storing both software and collaboratively-maintained text.
+We use our [GitHub organization]https://github.com/AlaskaDHSS) for storing both software and collaboratively-maintained text.
 
 #### Visual Studio Team Services
 We use our [Visual Studio Team Services](https://alaskadhssba.visualstudio.com/) repository much like our GitHub repository, but for repositories that either need to be kept private and for repositories that are deployed to Azure.
@@ -154,5 +154,5 @@ We use the [TTS Slack](https://gsa-tts.slack.com/) for communication that falls 
 ## Processes
 
 #### DevSecOps
-We rely on [DevSecOps](https://github.com/dhssalaska/acq-alaska-dhss-modernization/blob/master/DevSecOps.md) for automation and monitoring of code integration, testing, and deployment. Our DevSecOps pipeline is built atop VSTS (not GitHub) for deployment to Azure. We practice continuous integration, continuous deployment, and continuous testing (including security testing). All new code has tests developed simultaneously, with cumulative test coverage of not less than 90%. See “Accepting Vendor Work” for more.
-For details, see our [“Why DevSecOps?” document](https://github.com/dhssalaska/DevSecOpsMvp/blob/master/DevSecOps.md), in Github.
+We rely on [DevSecOps](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/blob/master/DevSecOps.md) for automation and monitoring of code integration, testing, and deployment. Our DevSecOps pipeline is built atop VSTS (not GitHub) for deployment to Azure. We practice continuous integration, continuous deployment, and continuous testing (including security testing). All new code has tests developed simultaneously, with cumulative test coverage of not less than 90%. See “Accepting Vendor Work” for more.
+For details, see our [“Why DevSecOps?” document](https://github.com/AlaskaDHSS/DevSecOpsMvp/blob/master/DevSecOps.md), in Github.

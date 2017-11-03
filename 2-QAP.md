@@ -1,4 +1,4 @@
-# [DRAFT] PERFORMANCE BASED QUALITY ASSURANCE PLAN (QAP) 
+# PERFORMANCE BASED QUALITY ASSURANCE PLAN (QAP) 
 # EISR Search Tool 
 ## INTRODUCTION
 This Quality Assurance Plan (QAP) has been developed to evaluate contractor actions while implementing [the Scope of Work (SOW)](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/blob/master/procurement-docs-search/Request-for-Proposals.md#3.01). It is designed to provide an effective method of monitoring contractor performance for each listed objective on the Performance Requirements Matrix. It also provides a systematic method to evaluate the services the contractor is required to furnish.

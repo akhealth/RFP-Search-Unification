@@ -2,13 +2,11 @@
 
 # STATE OF ALASKA REQUEST FOR PROPOSALS
 
-**Please submit questions or feedback [as an Issue](https://github.com/AlaskaDHSS/RFP-Search-Unification/issues)**
-
 **ELIGIBILITY INFORMATION SYSTEM - ENHANCED SEARCH TOOL**
 
 RFP 180000022
 
-Issued October 26, 2017
+Issued November 3, 2017
 
 The Department of Health and Social Services, Division of Public Assistance, is soliciting proposals for a Contractor to continuously deliver iterations of a search tool that finds information for a given person across multiple systems (EIS, ARIES) and returns search results to workers that accurately reflect the status of all program applications for a given person or household.
 
@@ -41,9 +39,8 @@ jon.geselle@alaska.gov<br>
 - [Sec. 1.10	Amendments to Proposals](#1.10)
 - [Sec. 1.11	Amendments to the RFP](#1.11)
 - [Sec. 1.12	RFP Schedule](#1.12)
-- [Sec. 1.13	Pre-proposal Conference](#1.13)
-- [Sec. 1.14	Alternate Proposals](#1.14)
-- [Sec. 1.15	News Releases](#1.15)
+- [Sec. 1.13	Alternate Proposals](#1.13)
+- [Sec. 1.14	News Releases](#1.14)
 
 ### Section 2.	BACKGROUND INFORMATION
 - [Sec. 2.01	Background Information](#2.01)
@@ -199,16 +196,16 @@ least ten days before the deadline for receipt of proposals.
 
 ### <a name="1.06"></a>Sec. 1.06 Questions Prior to Deadline for Receipt of Proposals
 
-Questions or comments regarding this RFP shall be submitted as issues
-within the DHSS GitHub repository at &lt;insert link&gt; no later than
-5:00 PM (Alaska Prevailing time) on November 15, 2017, to allow the
-Government sufficient time to respond. All questions and comments will
+Questions or comments regarding this RFP shall be submitted as [issues
+within this RFP's GitHub repository](https://github.com/AlaskaDHSS/RFP-Search-Unification/issues)
+no later than 5:00 PM (Alaska Prevailing time) on November 15, 2017, to allow the
+State sufficient time to respond. All questions and comments will
 be publicly available. Please subscribe to the repository if your firm
 would like updates about changes and comments. Questions or comments
 received after the required deadline may not be answered.
 
 Questions may also be submitted in writing to the Procurement Officer,
-who will post them as issues with the DHSS GitHub repository listed
+who will post them as issues with the GitHub repository listed
 above.
 
 PROCUREMENT OFFICER: **Jon
@@ -404,7 +401,7 @@ approval of the project director.
 
 BACKGROUND
 
-The background for this project as a whole is detailed in the project README. In short, for this first acquisition, we want to focus on providing value to our beneficiaries and constituents and provide a means to transition to a modular procurement model and agile development methodology. The product team has decided that building a robust person search would create a positive impact in a way that introduces the least risk to existing systems. We will learn a lot during this first acquisition that will help us tackle more invasive and risky acquisitions later on.
+The background for this project as a whole is detailed in the project README in DHSS primary [GitHub Repo](https://github.com/AlaskaDHSS/acq-alaska-dhss-modernization/blob/master/README.md). In short, for this first acquisition, we want to focus on providing value to our beneficiaries and constituents and provide a means to transition to a modular procurement model and agile development methodology. The product team has decided that building a robust person search would create a positive impact in a way that introduces the least risk to existing systems. We will learn a lot during this first acquisition that will help us tackle more invasive and risky acquisitions later on.
 
 OBJECTIVES
 
@@ -428,7 +425,7 @@ Build the foundation for a performant and flexible search API that can be reused
 
 The scope of this contract is for the Contractor to continuously deliver iterations of a search tool that finds information for a given person across multiple systems (EIS, ARIES) and returns search results to workers that accurately reflect the status of all program applications for a given person or household. The search tool will be used in production so that workers can give feedback as early and frequently as possible. At the end of the engagement, the search tool will already be in use by DPA workers.
 
-The State of Alaska [will provide documentation](prototype-findings.md) on how to access data sources, describe existing authentication systems, and discuss how to continuously deploy work to a staging environment.
+The State of Alaska [will provide documentation](https://github.com/AlaskaDHSS/RFP-Search-Unification/blob/final-review/prototype-findings.md) on how to access data sources, describe existing authentication systems, and discuss how to continuously deploy work to a staging environment.
 
 ### <a name="3.02"></a>Sec. 3.02 Requirements
 
@@ -534,6 +531,7 @@ Alaska envisions the need for the following skillsets as part of the Contractors
 - Researcher
 - User experience designer
 - Visual designer
+- Scrum Master (or equivalent)
 
 **Desired Skills and Knowledge**
 
@@ -630,7 +628,7 @@ artifacts, and create new user stories based on each sprint.
 
 **Quality Assurance**
 
-The Contractor shall comply with the acceptable quality levels (AQL) in the attached quality assurance plan (QAP) (update link to QAP on Github)
+The Contractor shall comply with the acceptable quality levels (AQL) in the attached [quality assurance plan](https://github.com/AlaskaDHSS/RFP-Search-Unification/blob/final-review/2-QAP.md) (QAP).
 
 ### <a name="3.08"></a>Sec. 3.08 Contract Type
 
@@ -715,7 +713,7 @@ Any change to the key personnel, as identified during project kick-off, must be 
 ### <a name="3.16"></a>Sec. 3.16 Inspection & Modification - Reimbursement for Unacceptable Deliverables
 
 The contractor is responsible for the completion of all work set out in the contract. All work is subject to inspection, evaluation, and
-approval by the project director. The Quality Assurance Plan, attached
+approval by the project director. The [Quality Assurance Plan](https://github.com/AlaskaDHSS/RFP-Search-Unification/blob/final-review/2-QAP.md), attached
 separately, provides additional information regarding the deliverable
 acceptance process.
 
@@ -810,7 +808,7 @@ Proposals must confirm that the offeror will comply with all provisions in this 
 
 ### <a name="4.03"></a>Sec. 4.03 Technical Understanding And Approach
 
-Succinctly describe level of knowledge, technical expertise and overall understanding of the requirement as set forth in [SECTION 3 SCOPE OF WORK & CONTRACT INFORMATION](#3.01). This is also an opportunity to discuss, either in the written proposal or during the verbal presentation, any risks or opportunities associated with the Technology Services discussed in the Information Technology Requirements (NEED TO CREATE LINK).  Technical understanding and approach description is included as part of your seven-page limitation.
+Succinctly describe level of knowledge, technical expertise and overall understanding of the requirement as set forth in [SECTION 3 SCOPE OF WORK & CONTRACT INFORMATION](#3.01). This is also an opportunity to discuss, either in the written proposal or during the verbal presentation, any risks or opportunities associated with the Technology Services discussed in the [Information Technology Requirements](https://github.com/AlaskaDHSS/RFP-Search-Unification/blob/final-review/5-Attachment%20A%20-%20DHSS%20IT%20Requirements%20Agile%20Acquisition.md).  Technical understanding and approach description is included as part of your seven-page limitation.
 
 ### <a name="4.04"></a>Sec. 4.04 Project Management Approach
 
@@ -822,7 +820,7 @@ ii. Risk Management - Discuss how the identification, classification, mitigation
 
 iii. Issue Management - Discuss how issues will be identified, addressed or escalated as needed.
 
-iv. Testing - Describe your philosophy on testing, and how you would work with the State product team to integrate into the shared      devops and CI pipeline. Describe how you envision incorporating user testing, and how you would align this with the CI activities.
+iv. Testing - Describe your philosophy on testing, and how you would work with the State product team to integrate into the shared devops and CI pipeline. Describe how you envision incorporating user testing, and how you would align this with the CI activities.
 
 v. Research - Describe an overview of your research process and how that will tie in with other delivery activities.
 
@@ -888,7 +886,7 @@ after this part of the presentation.
 
 The State will schedule the date and time of the verbal presentations
 with each Offeror after the solicitation closing date and receiving each
-Offeror’s quote submission. The Government reserves the right to
+Offeror’s quote submission. The State reserves the right to
 reschedule any Offeror’s verbal presentations date at the discretion of
 the contracting officer.
 

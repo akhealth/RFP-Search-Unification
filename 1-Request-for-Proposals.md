@@ -425,7 +425,7 @@ Build the foundation for a performant and flexible search API that can be reused
 
 The scope of this contract is for the Contractor to continuously deliver iterations of a search tool that finds information for a given person across multiple systems (EIS, ARIES) and returns search results to workers that accurately reflect the status of all program applications for a given person or household. The search tool will be used in production so that workers can give feedback as early and frequently as possible. At the end of the engagement, the search tool will already be in use by DPA workers.
 
-The State of Alaska [will provide documentation](https://github.com/AlaskaDHSS/RFP-Search-Unification/blob/final-review/prototype-findings.md) on how to access data sources, describe existing authentication systems, and discuss how to continuously deploy work to a staging environment.
+The State of Alaska [will provide documentation](4-prototype-findings.md) on how to access data sources, describe existing authentication systems, and discuss how to continuously deploy work to a staging environment.
 
 ### <a name="3.02"></a>Sec. 3.02 Requirements
 

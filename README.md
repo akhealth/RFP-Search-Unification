@@ -2,7 +2,7 @@
 
 ## Instructions
 
-The documents in this repository are posted in Alaska's [Vendor Self Service (VSS) portal](https://iris-adv.alaska.gov/webapp/PRDVSS1X1/AltSelfService) under RFP # 180000022. The documents in VSS should always be considered the documents of record. Please submit any questions as GitHub issues in this repository by November 15, 2017 at 4:00 pm Alaska prevailing time. 
+The documents in this repository are posted in Alaska's [Vendor Self Service (VSS) portal](https://iris-vss.alaska.gov/webapp/PRDVSS1X1/AltSelfService) under RFP # 180000022. The documents in VSS should always be considered the documents of record. Please submit any questions as GitHub issues in this repository by November 15, 2017 at 4:00 pm Alaska prevailing time. 
 
 Offers are due by November 27, 2017, at 4:00 pm Alaska prevailing time.
 

@@ -143,7 +143,7 @@ Approval or continuation of a contract resulting from this is contingent upon le
 
 ### <a name="1.03"></a>Sec. 1.03 Deadline for Receipt of Proposals
 
-Proposals must be received no later than 4:00 PM prevailing Alaska Time on November 27, 2017. Faxed, emailed, and oral proposals are not acceptable.
+Proposals must be received no later than 4:00 PM Alaska Standard Time on November 27, 2017. Faxed, emailed, and oral proposals are not acceptable.
 
 ### <a name="1.04"></a>Sec. 1.04 Minimum Responsiveness
 
@@ -176,7 +176,7 @@ In order for offers to be considered responsive offerors must meet the following
 
 -   The vendor’s team must ensure their agile ceremonies are conducted
     at times that are consistent with the State of Alaska’s normal
-    business hours (8:00AM–5:00PM Alaska Prevailing Time).
+    business hours (8:00AM–5:00PM Alaska Standard Time).
 
 An offeror's failure to meet these minimum requirements may cause their proposal to be considered non-responsive and their proposal may be rejected.
 
@@ -198,7 +198,7 @@ least ten days before the deadline for receipt of proposals.
 
 Questions or comments regarding this RFP shall be submitted as [issues
 within this RFP's GitHub repository](https://github.com/AlaskaDHSS/RFP-Search-Unification/issues)
-no later than 5:00 PM (Alaska Prevailing time) on November 15, 2017, to allow the
+no later than 5:00 PM (Alaska Standard Time) on November 15, 2017, to allow the
 State sufficient time to respond. All questions and comments will
 be publicly available. Please subscribe to the repository if your firm
 would like updates about changes and comments. Questions or comments
@@ -425,7 +425,7 @@ Build the foundation for a performant and flexible search API that can be reused
 
 The scope of this contract is for the Contractor to continuously deliver iterations of a search tool that finds information for a given person across multiple systems (EIS, ARIES) and returns search results to workers that accurately reflect the status of all program applications for a given person or household. The search tool will be used in production so that workers can give feedback as early and frequently as possible. At the end of the engagement, the search tool will already be in use by DPA workers.
 
-The State of Alaska [will provide documentation](4-prototype-findings.md) on how to access data sources, describe existing authentication systems, and discuss how to continuously deploy work to a staging environment.
+The State of Alaska [will provide documentation](4-Prototype-Findings.md) on how to access data sources, describe existing authentication systems, and discuss how to continuously deploy work to a staging environment.
 
 ### <a name="3.02"></a>Sec. 3.02 Requirements
 
@@ -903,9 +903,7 @@ Proposed Key Personnel must participate in the verbal presentation.
 Otherwise, the Offeror will be considered non-responsive and excluded
 from further consideration.
 
-Offerors may include as many participants as are necessary. Offerors
-should note that the State will be asking technical questions during the
-verbal presentation, so non-technical personnel may not need to attend.
+Offerors may include as many participants as are necessary. Offerors should note that the State will be asking technical questions during the verbal presentation. Participants will also be asked questions related to project management (section [4.04]((#4.04))).
 
 All proposed Key Personnel currently employed by the Offeror or its
 teaming partners must attend the session - the State is most interested

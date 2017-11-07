@@ -16,7 +16,7 @@ The background for this project as a whole is detailed in the [README](https://g
 
 For this first acquisition, we want to focus on providing value to our beneficiaries and constituents and provide a means to transition to a modular procurement model and agile development methodology. The product team has decided that building a robust person search would create a positive impact in a way that introduces the least risk to existing systems. We will learn a lot during this first acquisition that will help us tackle more invasive and risky acquisitions later on.
  
-_Important note - Questions about this RFP should be [posted here](issues) - and not to the main DHSS project repo._
+_Important note - Questions about this RFP should be [posted here](../../issues) - and not to the main DHSS project repo._
 
 ### What we're hoping to achieve as a result of this acquistion
 

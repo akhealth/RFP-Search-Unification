@@ -903,7 +903,7 @@ Proposed Key Personnel must participate in the verbal presentation.
 Otherwise, the Offeror will be considered non-responsive and excluded
 from further consideration.
 
-Offerors may include as many participants as are necessary. Offerors should note that the State will be asking technical questions during the verbal presentation. Participants will also be asked questions related to project management (section [4.04]((#4.04))).
+Offerors may include as many participants as are necessary. Offerors should note that the State will be asking technical questions during the verbal presentation. Participants will also be asked questions related to project management (section [4.04](#4.04)).
 
 All proposed Key Personnel currently employed by the Offeror or its
 teaming partners must attend the session - the State is most interested

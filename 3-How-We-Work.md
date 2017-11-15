@@ -56,71 +56,71 @@ So that we can work more efficiently and be confident in the quality of the work
 
 ## Accepting Vendor Work
 
-Work is accepted in the form of a pull request, at the conclusion of each sprint, after the sprint review and retro. For that work to be accepted, it must meet the following standards.
+Work is accepted in the form of a pull request, at the conclusion of each sprint, after the sprint review and retro. For that work to be accepted, it must meet the following standards:
 
-## Testing Strategy
+### Testing Strategy
 
 We practice testing at three levels: unit tests, integration tests, and feature tests. For details about how we create and maintain unit, integration and feature tests, see [18F’s “Automated Testing Playbook”](https://automated-testing-playbook.18f.gov/).
 
-### Unit
+#### Unit
 
 Unit tests must be created for all new code, during the sprint in which the code is written, with coverage of at least 90%.
 
-### Integration
+#### Integration
 
 Because all new work is integrating with the existing ARIES code base, new code must include tests that verify that interfaces are functioning as designed.
 
-### Feature
+#### Feature
 
 New features must have functional definitions of the thing that they are to perform, and a description of human-performable actions to verify that they perform that thing.
 
-## Pull Request Process
+### Pull Request Process
 
 Documented in our [DevSecOpsMVP repo](https://github.com/AlaskaDHSS/DevSecOpsMvp/blob/master/vsts/GitBranchingStrategy.md).
 
-## Code Review Process
+### Code Review Process
 
 Code reviews are about keeping code clean and limiting technical debt. We will look for things that increase technical debt or create an environment where technical debt can be introduced easily later.
 
-### What we look for
+#### What we look for
 
-#### Untested code
+##### Untested code
 We’re mostly going to look at new and changed code. For changed code, we’ll check the existing tests to make sure they’ve been updated if necessary. For new code, we’ll check that new tests were created.
 
-#### All logical paths are tested
+##### All logical paths are tested
 Tests should cover all branches of logical decisions (e.g., if statements). We’ll check this by looking at a code coverage report that shows which lines were executed.
 
-#### Logical AND and OR operations are tested
+##### Logical AND and OR operations are tested
 Boolean operations can be somewhat hidden logical paths. That is, a code coverage report will show every line is tested, but if boolean parts of a condition aren’t fully exercised, then some logical paths aren’t actually tested. We’ll check the tests to make sure they check both sides of logical operations.
 
-#### Test names describe what the tests are doing
+##### Test names describe what the tests are doing
 Test names shouldn’t be overly technical. Ideally folks outside the development team can read the tests and know what’s passing and what’s failing. Test names should describe their behavior and not just be the name of the method being tested. We’ll check the test names to make sure they’re descriptive.
 
-#### Tests actually do what they’re supposed to
+##### Tests actually do what they’re supposed to
 It’s easy to get to 100% code coverage without actually testing anything. We’ll look at the tests themselves to make sure they’re actually making the right assertions about the methods under test.
 
-#### Cyclomatic complexity, code depth, and method lengths are reasonable
+##### Cyclomatic complexity, code depth, and method lengths are reasonable
 We’ll use automated tools to do [static source analysis](https://18f.gsa.gov/2016/10/04/what-is-static-source-analysis/). Anywhere the metrics are higher than what we’d generally like, we’ll look at the code itself to see if they make sense. We’re going to take a more in-depth look when we a cyclomatic complexity above 10, a code depth above 5, or a method length above 25 lines.
 
-#### Opportunities to abstract and refactor
+##### Opportunities to abstract and refactor
 We’ll look for duplication in the code where it might make sense to break functionality into methods that can be reused.
 
-#### Unwieldy methods
+##### Unwieldy methods
 Methods that are hard to reason about are also difficult to test, difficult to maintain, and prone to bugs. We’ll look out for methods that are complex and suggest either refactoring that method or possibly breaking it into smaller pieces.
 
-#### Meaningful method and variable names
+##### Meaningful method and variable names
 Method names should accurately reflect what the method does, and variable names should pretty clearly indicate what data they’re holding. Don’t be afraid of long names.  This also applies to method argument names. Ideally, someone looking at a method signature should be able to infer what it does without any additional documentation. We’ll look at these names to be sure they make sense. Good naming practices contribute to self-documenting code and reduce the manual documentation burden.
 
-#### Commented-out code
+##### Commented-out code
 With good version control, it should be unnecessary to comment out blocks of code — just delete them and get them from source history if you really need them again in the future.  Obviously it’s fine to comment out code while you’re developing, but once a feature is ready to merge, that former code should just be removed. We’ll be looking for these commented code blocks.
 
-#### Necessary comments
+##### Necessary comments
 Comments in the code should describe complex bits of logic that aren’t easily glanceable — if someone new to the code can’t skim it and understand it, a comment might be in order. As we’re reviewing the code, if we find a bit we can’t understand quickly from the code and context, we’ll be looking for a comment that explains it. Comments should appear with the code they’re describing.
 
-#### Documented APIs
+##### Documented APIs
 If code exposes a public API — whether that’s public methods on a class or HTTP endpoints in a REST service — those public methods should be documented.  We like documentation that can be extracted into some pretty markup (e.g., .NET’s XML comments, jsdoc, or [OAS](https://www.openapis.org/) — formerly Swagger). We’ll check that any public-facing methods have useful documentation. 
 
-#### Adherence to the project’s style guide
+##### Adherence to the project’s style guide
 The project should adopt a code style guide and code should conform. Which guide the team chooses is less important than the consistency that comes from actually using it.  We’ll check to make sure there’s a linter configured to check code style, that it passes, and that any exceptions are documented and explained in the code.
 
 ### What we’ll do

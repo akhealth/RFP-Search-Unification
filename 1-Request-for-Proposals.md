@@ -163,7 +163,7 @@ In order for offers to be considered responsive offerors must meet the following
         final product or current staging environment. If live links are
         not available, screenshots can be provided, along with a brief
         explanation as to why the project is no longer live. Note that
-        screenshots will not be counted towards your 7-page limitation;
+        screenshots will not be counted towards your 9-page limitation;
         please provide screenshots as attachments. The projects should
         be recent and similar to the size and technical scope of this
         requirement.
@@ -804,11 +804,11 @@ Proposals must include the complete name and address of offeror’s firm
 and the name, mailing address, and telephone number of the person the
 state should contact regarding the proposal.
 
-Proposals must confirm that the offeror will comply with all provisions in this RFP; and, if applicable, provide notice that the firm qualifies as an Alaskan bidder. Proposals must be signed by a company officer empowered to bind the company. An offeror's failure to include these items in the proposals may cause the proposal to be determined to be non-responsive and the proposal may be rejected. See [SECTION 1.08 Proposal Contents](#1.08) for more information.
+Proposals must confirm that the offeror will comply with all provisions in this RFP; and, if applicable, provide notice that the firm qualifies as an Alaskan bidder. Proposals must be signed by a company officer empowered to bind the company. An offeror's failure to include these items in the proposals may cause the proposal to be determined to be non-responsive and the proposal may be rejected. See [SECTION 1.08 Proposal Contents](#1.08) for more information.  Introduction is included as part of your 9-page limitation.
 
 ### <a name="4.03"></a>Sec. 4.03 Technical Understanding And Approach
 
-Succinctly describe level of knowledge, technical expertise and overall understanding of the requirement as set forth in [SECTION 3 SCOPE OF WORK & CONTRACT INFORMATION](#3.01). This is also an opportunity to discuss, either in the written proposal or during the verbal presentation, any risks or opportunities associated with the Technology Services discussed in the [Information Technology Requirements](https://github.com/AlaskaDHSS/RFP-Search-Unification/blob/final-review/5-Attachment%20A%20-%20DHSS%20IT%20Requirements%20Agile%20Acquisition.md).  Technical understanding and approach description is included as part of your seven-page limitation.
+Succinctly describe level of knowledge, technical expertise and overall understanding of the requirement as set forth in [SECTION 3 SCOPE OF WORK & CONTRACT INFORMATION](#3.01). This is also an opportunity to discuss, either in the written proposal or during the verbal presentation, any risks or opportunities associated with the Technology Services discussed in the [Information Technology Requirements](https://github.com/AlaskaDHSS/RFP-Search-Unification/blob/final-review/5-Attachment%20A%20-%20DHSS%20IT%20Requirements%20Agile%20Acquisition.md).  Technical understanding and approach description is included as part of your 9-page limitation.
 
 ### <a name="4.04"></a>Sec. 4.04 Project Management Approach
 
@@ -824,13 +824,17 @@ iv. Testing - Describe your philosophy on testing, and how you would work with t
 
 v. Research - Describe an overview of your research process and how that will tie in with other delivery activities.
 
+Project Management Approach is included as part of your 9-page limitation.
+
 ### <a name="4.05"></a>Sec. 4.05 Aproach to User Interface and User Experience Design
 
 Proposals must contain information that describes how you will perform user experience and user interface design as a part of the overall user reaserch. The proposal should also contain information about how this research will be translated into relevant user stories and ultimately into working software.
 
+Approach to User Interface and User Experience Design is included as part of your 9-page limitation.
+
 ### <a name="4.06"></a>Sec. 4.06 Staffing Plan
 
-Provide a Staffing Plan that describes your understanding of the requirements and details the number of personnel by skill level/labor category needed to satisfy the objectives and requirements in [SECTION 3 SCOPE OF WORK & CONTRACT INFORMATION](#3.01). The Staffing plan is included as part of your seven-page limitation. Resumes and letters of intent are not included as part of your seven-page limitation.
+Provide a Staffing Plan that describes your understanding of the requirements and details the number of personnel by skill level/labor category needed to satisfy the objectives and requirements in [SECTION 3 SCOPE OF WORK & CONTRACT INFORMATION](#3.01). The Staffing plan is included as part of your 9-page limitation. Resumes and letters of intent are not included as part of your 9-page limitation.
 
 At a minimum, provide:
 
@@ -842,13 +846,13 @@ iii. A list of Key Personnel by name, title, contact information, proposed dutie
 
 ### <a name="4.07"></a>Sec. 4.07 Similar Experience and Qualifications
 
-The offeror must provide two examples of web-based platforms. While not required, we strongly prefer that at least one of these projects have been developed and released using open source principles and licensing. The examples provided must reflect aspects of data security, and should show aspects of strong user driven design in a web application. The project must have been delivered by either a) the offeror itself or, alternatively, b) a teaming partner that is proposed in response to this RFP, or, alternatively, c) any Key Personnel that is being proposed in response to this RFP. In the project summary, be sure to identify how the offeror’s team was involved in the development. The project(s) submitted for Similar Experience is included as part of your seven-page limitation, unless noted otherwise below.
+The offeror must provide two examples of web-based platforms. While not required, we strongly prefer that at least one of these projects have been developed and released using open source principles and licensing. The examples provided must reflect aspects of data security, and should show aspects of strong user driven design in a web application. The project must have been delivered by either a) the offeror itself or, alternatively, b) a teaming partner that is proposed in response to this RFP, or, alternatively, c) any Key Personnel that is being proposed in response to this RFP. In the project summary, be sure to identify how the offeror’s team was involved in the development. The project(s) submitted for Similar Experience is included as part of your 9-page limitation, unless noted otherwise below.
 
 At a minimum, provide:
 
 i.  Recent and similar technical scope is past experience with building usable, responsive, consumer facing website built within the past three (3) years.
 
-ii. The summary shall include links to the public Git repository that includes the source code that was developed and accepted for the project. Actual access to a publicly available Git repository is strongly encouraged over screenshots of private repositories. The summary should also include live links of the final product or current staging environment. If live links are not available, screenshots can be provided, along with a brief explanation as to why the project is no longer live. Note that screenshots will not be counted towards your 7-page limitation; please provide screenshots as attachments. The projects should be recent and similar to the size and technical scope of this requirement.
+ii. The summary shall include links to the public Git repository that includes the source code that was developed and accepted for the project. Actual access to a publicly available Git repository is strongly encouraged over screenshots of private repositories. The summary should also include live links of the final product or current staging environment. If live links are not available, screenshots can be provided, along with a brief explanation as to why the project is no longer live. Note that screenshots will not be counted towards your 9-page limitation; please provide screenshots as attachments. The projects should be recent and similar to the size and technical scope of this requirement.
 
 ### <a name="4.08"></a>Sec. 4.08 Verbal Presentation
 

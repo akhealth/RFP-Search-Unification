@@ -324,8 +324,7 @@ questions of conflict of interest shall be final.
 
 #### (e) Federal Requirements
 
-The offeror must identify all known federal requirements that apply to
-the proposal, the evaluation, or the contract.
+RESERVED
 
 #### (f) Certification Regarding Debarment, Suspension, Ineligibility and Voluntary Exclusion Lower Tier Covered Transactions
 

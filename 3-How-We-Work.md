@@ -52,7 +52,7 @@ So that we can work more efficiently and be confident in the quality of the work
 
 * for product team to accept the user story and ship it
   * Someone from the product team has verified the functionality in staging
-  * At least xx real users have tested the feature and no show stopper bugs have been found [Assume that this maps to a light QA process, not to an existing, more involved UAT process]
+  * A meaningful number of end-users have tested the feature, and no major bugs have been found. This testing may be done with     a light quality-assurance process, rather than Alaska's more involved user-acceptance testing process.
 
 ## Accepting Vendor Work
 

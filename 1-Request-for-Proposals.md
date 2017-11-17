@@ -457,11 +457,11 @@ Contractor shall ensure the design aligns with the modular product design strate
 
 Contractor shall ensure pages load efficiently across geographies and display/function properly on different device types and using various modern and necessary browsers.
 
-All software code delivered under this order shall comply with the 18F open source policy in effect as of the date of award.
+All software code delivered under this order shall comply with the [18F open source policy](https://github.com/18F/open-source-policy/blob/master/policy.md) in effect as of the date of award.
 
-All software code delivered under this order shall comply with the 18F accessibility guidelines in effect as of the date of award.
+All software code delivered under this order shall comply with the [18F accessibility guidance](https://accessibility.18f.gov) in effect as of the date of award.
 
-APIs should comply with the 18F API standards
+APIs should comply with the [18F API standards.](https://github.com/18F/api-standards)
 
 Work will be conducted in two-week sprints and reviewed at the end of each sprint for acceptability before moving on.
 

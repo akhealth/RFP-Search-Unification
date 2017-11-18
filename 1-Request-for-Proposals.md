@@ -367,13 +367,13 @@ rest of the schedule may be shifted by the same number of days.
 
 -    Deadline for receipt of proposals on November 27, 2017,
 
--    Interviews conducted with qualifying offerors on December 4 - 8, 2017,
+-    Interviews conducted with qualifying offerors on November 30- December 1, 2017,
 
--    Proposal Evaluation Committee complete evaluation by December 15, 2017,
+-    Proposal Evaluation Committee complete evaluation by December 4, 2017,
 
--    State of Alaska issues Notice of Intent to Award a contract on December 15, 2017,
+-    State of Alaska issues Notice of Intent to Award a contract on December 4, 2017,
 
--    State of Alaska issues contract on December 20, 2017.
+-    State of Alaska issues contract on December 15, 2017.
 
 This RFP does not, by itself, obligate the state. The state's obligation
 will commence when the contract is approved by the Commissioner of the

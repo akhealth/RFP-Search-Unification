@@ -282,8 +282,17 @@ The use of EntireX Broker means that new data being made available from EIS must
 
 The data—returned from our API, relayed from EntireX Broker, relayed from EIS—looks like this:
 
-```
-
+```xml
+<cHES18F01 xmlns="http://schemas.datacontract.org/2004/07/AE_WebService.AE_WebService" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<inClientFName>JANE</inClientFName>
+<inclientDob>20011201</inclientDob>
+<inclientLName>DOE</inclientLName>
+<inclientMName/>
+<inclientSex>F</inclientSex>
+<inclientSsn>123456789</inclientSsn>
+<optDESCRIPTION/>
+<optOPTION>00</optOPTION>
+</cHES18F01>
 ```
 
 Our prototype includes [functionality to issue queries to that EIS API](https://github.com/AlaskaDHSS/ProtoWebApi/blob/master/AKRestAPI/Controllers/EISController.cs).

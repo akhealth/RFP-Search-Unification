@@ -173,75 +173,102 @@ The Master Client Index, uniquely among the three data sources, has a an API. It
 
 
 ```xml
-<VirtualId>6956955</VirtualId>
+<VirtualId>6960492</VirtualId>
 <MatchPercentage></MatchPercentage>
 <Title></Title>
-<FirstName>John</FirstName>
-<MiddleName>M</MiddleName>
-<LastName>Doe</LastName>
+<FirstName>Greg</FirstName>
+<MiddleName></MiddleName>
+<LastName>Allen</LastName>
 <Suffix></Suffix>
-<DateOfBirth>1978-12-17T00:00:00.000</DateOfBirth>
+<DateOfBirth>1980-10-21T00:00:00.000</DateOfBirth>
 <Gender>Male</Gender>
 <Registrations>
-    <Registration>
-        <RegistrationName>ARIES_ID</RegistrationName>
-        <RegistrationValue>4200000007</RegistrationValue>
-    </Registration>
-    <Registration>
-        <RegistrationName>SSN</RegistrationName>
-        <RegistrationValue>801010101</RegistrationValue>
-    </Registration>
-    <Registration>
-        <RegistrationName>MediCaid</RegistrationName>
-        <RegistrationValue>0600123456</RegistrationValue>
-    </Registration>
+  <Registration>
+    <RegistrationName>ARIES_ID</RegistrationName>
+    <RegistrationValue>2000027440</RegistrationValue>
+  </Registration>
 </Registrations>
 <Names>
-    <Name>
-        <NameType>Registered</NameType>
-        <Title></Title>
-        <FirstName>John</FirstName>
-        <MiddleName>M</MiddleName>
-        <LastName>Doe</LastName>
-        <Suffix></Suffix>
-    </Name>
+  <Name>
+    <NameType>Registered</NameType>
+    <Title></Title>
+    <FirstName>Greg</FirstName>
+    <MiddleName></MiddleName>
+    <LastName>Allen</LastName>
+    <Suffix></Suffix>
+  </Name>
 </Names>
-<Address Type="Matching" Value="123 NORTH AVE UNIT 42 JIM'S HOUSE">
+<Addresses />
+<VirtualId>6974287</VirtualId>
+<MatchPercentage></MatchPercentage>
+<Title></Title>
+<FirstName>CRAIG</FirstName>
+<MiddleName></MiddleName>
+<LastName>ALLEN</LastName>
+<Suffix></Suffix>
+<DateOfBirth>1970-05-21T00:00:00.000</DateOfBirth>
+<Gender>Male</Gender>
+<Registrations>
+  <Registration>
+    <RegistrationName>EIS_ID</RegistrationName>
+    <RegistrationValue>0600223715</RegistrationValue>
+  </Registration>
+  <Registration>
+    <RegistrationName>MediCaid</RegistrationName>
+    <RegistrationValue>0600223715</RegistrationValue>
+  </Registration>
+  <Registration>
+    <RegistrationName>SSN</RegistrationName>
+    <RegistrationValue>551516584</RegistrationValue>
+  </Registration>
+</Registrations>
+<Names>
+  <Name>
+    <NameType>Registered</NameType>
+    <Title></Title>
+    <FirstName>CRAIG</FirstName>
+    <MiddleName></MiddleName>
+    <LastName>ALLEN</LastName>
+    <Suffix></Suffix>
+  </Name>
+</Names>
+<Addresses>
+  <Address Type="Matching" Value="336 KOGWONTON ST UNIT 114 HENRY'S HOUSE">
     <LocationElement>
       <Type>HouseNameNumber</Type>
-      <Value>123 NORTH AVE</Value>
+      <Value>336 KOGWONTON ST</Value>
     </LocationElement>
     <LocationElement>
       <Type>HouseNameNumber</Type>
-      <Value>UNIT 42 JIM'S HOUSE</Value>
+      <Value>UNIT 114 HENRY'S HOUSE</Value>
     </LocationElement>
   </Address>
-  <Address Type="Mailing Address" Value="123 NORTH AVE JUNEAU AK">
+  <Address Type="Mailing Address" Value="336 KOGWONTON ST SITKA AK">
     <LocationElement>
       <Type>Address Line</Type>
-      <Value>123 NORTH AVE</Value>
+      <Value>336 KOGWONTON ST</Value>
     </LocationElement>
     <LocationElement>
       <Type>City</Type>
-      <Value>JUNEAU</Value>
+      <Value>SITKA</Value>
     </LocationElement>
     <LocationElement>
       <Type>State</Type>
       <Value>AK</Value>
     </LocationElement>
   </Address>
-  <Address Type="Physical Address" Value="UNIT 42 JIM'S HOUSE JUNEAU AK 99801">
+  <Address Type="Physical Address" Value="UNIT 114 HENRY'S HOUSE ANCHORAGE AK 99501">
     <LocationElement>
       <Type>Address Line</Type>
-      <Value>UNIT 42</Value>
+      <Value>UNIT 114</Value>
     </LocationElement>
     <LocationElement>
       <Type>Address Line</Type>
-      <Value>JIM'S HOUSE</Value>
+      <Value>HENRY'S HOUSE</Value>
     </LocationElement>
     <LocationElement>
       <Type>City</Type>
-      <Value>JUNEAU</Value>
+      <Value>ANCHORAGE</Value>
     </LocationElement>
     <LocationElement>
       <Type>State</Type>
@@ -249,9 +276,10 @@ The Master Client Index, uniquely among the three data sources, has a an API. It
     </LocationElement>
     <LocationElement>
       <Type>ZIP</Type>
-      <Value>99801</Value>
+      <Value>99501</Value>
     </LocationElement>
   </Address>
+</Addresses>
 ```
 
 Our prototype includes [functionality to issue a query to this SOAP interface](https://github.com/AlaskaDHSS/ProtoWebApi/blob/master/AKRestAPI/Controllers/PeopleController.cs). 
@@ -284,14 +312,14 @@ The dataâ€”returned from our API, relayed from EntireX Broker, relayed from EISâ
 
 ```xml
 <cHES18F01 xmlns="http://schemas.datacontract.org/2004/07/AE_WebService.AE_WebService" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-<inClientFName>JANE</inClientFName>
-<inclientDob>20011201</inclientDob>
-<inclientLName>DOE</inclientLName>
-<inclientMName/>
-<inclientSex>F</inclientSex>
-<inclientSsn>123456789</inclientSsn>
-<optDESCRIPTION/>
-<optOPTION>00</optOPTION>
+  <inClientFName>JANE</inClientFName>
+  <inclientDob>20011201</inclientDob>
+  <inclientLName>DOE</inclientLName>
+  <inclientMName/>
+  <inclientSex>F</inclientSex>
+  <inclientSsn>123456789</inclientSsn>
+  <optDESCRIPTION/>
+  <optOPTION>00</optOPTION>
 </cHES18F01>
 ```
 

@@ -169,7 +169,7 @@ The three components that the prototype knit together — the MCI, ARIES, and EI
 The MCI has a native API, so its responsive is illustrative of what future work with it will look like, but we built API layers for ARIES and EIS, so the sample responses from those indicate only the choices that we made, and not what any future work will actually interface with.
 
 ### MCI
-The Master Client Index, uniquely among the three data sources, has a an API. It is SOAP-based, and exposes a method for searching by various client criteria. True to its name, the MCI functions as a single source of truth of what data is housed within ARIES and EIS, and includes unique ARIES and EIS identifiers (as applicable) for all included records. Here is an excerpt of the useful portion of the result of a query to MCI, on our user-acceptance testing environment, for a person of the name `John Doe`:
+The Master Client Index, uniquely among the three data sources, has a an API. It is SOAP-based, and exposes a method for searching by various client criteria. True to its name, the MCI functions as a single source of truth of what data is housed within ARIES and EIS, and includes unique ARIES and EIS identifiers (as applicable) for all included records. Here is an excerpt of the useful portion of the result of a query to MCI, on our user-acceptance testing environment, for a person of the name `John Public`:
 
 
 ```xml

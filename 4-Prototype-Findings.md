@@ -204,7 +204,7 @@ The Master Client Index, uniquely among the three data sources, has a an API. It
 <Title></Title>
 <FirstName>JACK</FirstName>
 <MiddleName></MiddleName>
-<LastName>Public</LastName>
+<LastName>PUBLIC</LastName>
 <Suffix></Suffix>
 <DateOfBirth>1970-05-21T00:00:00.000</DateOfBirth>
 <Gender>Male</Gender>

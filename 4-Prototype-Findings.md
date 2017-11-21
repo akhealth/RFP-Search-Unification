@@ -226,9 +226,9 @@ The Master Client Index, uniquely among the three data sources, has a an API. It
   <Name>
     <NameType>Registered</NameType>
     <Title></Title>
-    <FirstName>CRAIG</FirstName>
+    <FirstName>JACK</FirstName>
     <MiddleName></MiddleName>
-    <LastName>Public</LastName>
+    <LastName>PUBLIC</LastName>
     <Suffix></Suffix>
   </Name>
 </Names>

@@ -169,11 +169,89 @@ The three components that the prototype knit together — the MCI, ARIES, and EI
 The MCI has a native API, so its responsive is illustrative of what future work with it will look like, but we built API layers for ARIES and EIS, so the sample responses from those indicate only the choices that we made, and not what any future work will actually interface with.
 
 ### MCI
-The Master Client Index, uniquely among the three data sources, has a an API. It is SOAP-based, and exposes a method for searching by various client criteria. True to its name, the MCI functions as a single source of truth of what data is housed within ARIES and EIS, and includes unique ARIES and EIS identifiers (as applicable) for all included records. Here is an excerpt of the useful portion of the result of a query to MCI, on our user-acceptance testing environment, for a person of the name `Greg Allen`:
+The Master Client Index, uniquely among the three data sources, has a an API. It is SOAP-based, and exposes a method for searching by various client criteria. True to its name, the MCI functions as a single source of truth of what data is housed within ARIES and EIS, and includes unique ARIES and EIS identifiers (as applicable) for all included records. Here is an excerpt of the useful portion of the result of a query to MCI, on our user-acceptance testing environment, for a person of the name `John Doe`:
 
 
 ```xml
-
+<VirtualId>6956955</VirtualId>
+<MatchPercentage></MatchPercentage>
+<Title></Title>
+<FirstName>John</FirstName>
+<MiddleName>M</MiddleName>
+<LastName>Doe</LastName>
+<Suffix></Suffix>
+<DateOfBirth>1978-12-17T00:00:00.000</DateOfBirth>
+<Gender>Male</Gender>
+<Registrations>
+    <Registration>
+        <RegistrationName>ARIES_ID</RegistrationName>
+        <RegistrationValue>4200000007</RegistrationValue>
+    </Registration>
+    <Registration>
+        <RegistrationName>SSN</RegistrationName>
+        <RegistrationValue>801010101</RegistrationValue>
+    </Registration>
+    <Registration>
+        <RegistrationName>MediCaid</RegistrationName>
+        <RegistrationValue>0600123456</RegistrationValue>
+    </Registration>
+</Registrations>
+<Names>
+    <Name>
+        <NameType>Registered</NameType>
+        <Title></Title>
+        <FirstName>John</FirstName>
+        <MiddleName>M</MiddleName>
+        <LastName>Doe</LastName>
+        <Suffix></Suffix>
+    </Name>
+</Names>
+<Address Type="Matching" Value="123 NORTH AVE UNIT 42 JIM'S HOUSE">
+    <LocationElement>
+      <Type>HouseNameNumber</Type>
+      <Value>123 NORTH AVE</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>HouseNameNumber</Type>
+      <Value>UNIT 42 JIM'S HOUSE</Value>
+    </LocationElement>
+  </Address>
+  <Address Type="Mailing Address" Value="123 NORTH AVE JUNEAU AK">
+    <LocationElement>
+      <Type>Address Line</Type>
+      <Value>123 NORTH AVE</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>City</Type>
+      <Value>JUNEAU</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>State</Type>
+      <Value>AK</Value>
+    </LocationElement>
+  </Address>
+  <Address Type="Physical Address" Value="UNIT 42 JIM'S HOUSE JUNEAU AK 99801">
+    <LocationElement>
+      <Type>Address Line</Type>
+      <Value>UNIT 42</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>Address Line</Type>
+      <Value>JIM'S HOUSE</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>City</Type>
+      <Value>JUNEAU</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>State</Type>
+      <Value>AK</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>ZIP</Type>
+      <Value>99801</Value>
+    </LocationElement>
+  </Address>
 ```
 
 Our prototype includes [functionality to issue a query to this SOAP interface](https://github.com/AlaskaDHSS/ProtoWebApi/blob/master/AKRestAPI/Controllers/PeopleController.cs). 

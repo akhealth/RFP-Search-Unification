@@ -160,3 +160,167 @@ required to do so.
 Integrating new modules into the existing ARIES production environment
 was identified as an area of risk, but the work and LOE required to do
 this were not completed as part of our prototyping efforts.
+
+## Appendix: Component APIs
+
+### Introduction
+The three components that the prototype knit together — the MCI, ARIES, and EIS — required varying levels of work to make it possible to issue a query to them via a RESTful API. What follows is a brief description of how we made a query to each system, with a sample of what that query response looks like.
+
+The MCI has a native API, so its responsive is illustrative of what future work with it will look like, but we built API layers for ARIES and EIS, so the sample responses from those indicate only the choices that we made, and not what any future work will actually interface with.
+
+### MCI
+The Master Client Index, uniquely among the three data sources, has a an API. It is SOAP-based, and exposes a method for searching by various client criteria. True to its name, the MCI functions as a single source of truth of what data is housed within ARIES and EIS, and includes unique ARIES and EIS identifiers (as applicable) for all included records. Here is an excerpt of the useful portion of the result of a query to MCI, on our user-acceptance testing environment, for a person of the name `John Public`:
+
+
+```xml
+<VirtualId>6960492</VirtualId>
+<MatchPercentage></MatchPercentage>
+<Title></Title>
+<FirstName>John</FirstName>
+<MiddleName></MiddleName>
+<LastName>Public</LastName>
+<Suffix></Suffix>
+<DateOfBirth>1980-10-21T00:00:00.000</DateOfBirth>
+<Gender>Male</Gender>
+<Registrations>
+  <Registration>
+    <RegistrationName>ARIES_ID</RegistrationName>
+    <RegistrationValue>2000027440</RegistrationValue>
+  </Registration>
+</Registrations>
+<Names>
+  <Name>
+    <NameType>Registered</NameType>
+    <Title></Title>
+    <FirstName>John</FirstName>
+    <MiddleName></MiddleName>
+    <LastName>Public</LastName>
+    <Suffix></Suffix>
+  </Name>
+</Names>
+<Addresses />
+<VirtualId>6974287</VirtualId>
+<MatchPercentage></MatchPercentage>
+<Title></Title>
+<FirstName>JACK</FirstName>
+<MiddleName></MiddleName>
+<LastName>PUBLIC</LastName>
+<Suffix></Suffix>
+<DateOfBirth>1970-05-21T00:00:00.000</DateOfBirth>
+<Gender>Male</Gender>
+<Registrations>
+  <Registration>
+    <RegistrationName>EIS_ID</RegistrationName>
+    <RegistrationValue>0600223715</RegistrationValue>
+  </Registration>
+  <Registration>
+    <RegistrationName>MediCaid</RegistrationName>
+    <RegistrationValue>0600223715</RegistrationValue>
+  </Registration>
+  <Registration>
+    <RegistrationName>SSN</RegistrationName>
+    <RegistrationValue>551516584</RegistrationValue>
+  </Registration>
+</Registrations>
+<Names>
+  <Name>
+    <NameType>Registered</NameType>
+    <Title></Title>
+    <FirstName>JACK</FirstName>
+    <MiddleName></MiddleName>
+    <LastName>PUBLIC</LastName>
+    <Suffix></Suffix>
+  </Name>
+</Names>
+<Addresses>
+  <Address Type="Matching" Value="123 SOME ST UNIT 111 JOE'S HOUSE">
+    <LocationElement>
+      <Type>HouseNameNumber</Type>
+      <Value>123 SOME ST</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>HouseNameNumber</Type>
+      <Value>UNIT 111 JOE'S HOUSE</Value>
+    </LocationElement>
+  </Address>
+  <Address Type="Mailing Address" Value="123 SOME ST ANCHORAGE AK">
+    <LocationElement>
+      <Type>Address Line</Type>
+      <Value>123 SOME ST</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>City</Type>
+      <Value>ANCHORAGE</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>State</Type>
+      <Value>AK</Value>
+    </LocationElement>
+  </Address>
+  <Address Type="Physical Address" Value="UNIT 111 JOE'S HOUSE ANCHORAGE AK 99501">
+    <LocationElement>
+      <Type>Address Line</Type>
+      <Value>UNIT 114</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>Address Line</Type>
+      <Value>JOE'S HOUSE</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>City</Type>
+      <Value>ANCHORAGE</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>State</Type>
+      <Value>AK</Value>
+    </LocationElement>
+    <LocationElement>
+      <Type>ZIP</Type>
+      <Value>99501</Value>
+    </LocationElement>
+  </Address>
+</Addresses>
+```
+
+Our prototype includes [functionality to issue a query to this SOAP interface](https://github.com/AlaskaDHSS/ProtoWebApi/blob/master/AKRestAPI/Controllers/PeopleController.cs). 
+
+For more detailed information about the MCI API, see [Attachment E for the WSDL interface definition](https://github.com/AlaskaDHSS/RFP-Search-Unification/blob/master/7-Attachment%20E%20-%20Person%20Service.wsdl), which is the authoritative definition of the MCI’s “person” service.
+
+### ARIES
+ARIES has no API, but can be interfaced with via its PostgreSQL database. The database is comprised of hundreds of tables, and contains all data present within ARIES. For [our prototype](https://github.com/AlaskaDHSS/RFP-Search-Unification/blob/master/4-Prototype-Findings.md), we used [a single query to ARIES’ database](https://github.com/AlaskaDHSS/ProtoWebApi/blob/master/AKRestAPI/Controllers/AriesController.cs#L33) to retrieve the status of a given application, using the ARIES ID found within the MCI.
+
+Our prototype delivers the minimum viable response—the ARIES ID, application ID, and application status—which looks like this:
+
+```
+[  
+   {  
+      "indv_id":2400000003,
+      "app_num":"T14000001",
+      "application_status_cd":"DI"
+   }
+]
+```
+
+Again, that response is an MVP, created solely for a prototype. For the work of this search unification project, it will be necessary to interface with PostgreSQL, and doing so may result in returning more or different data in the response than we chose to for this prototype.
+
+### EIS 
+EIS runs in an [MVS](https://en.wikipedia.org/wiki/MVS) mainframe environment, built using [COBOL](https://en.wikipedia.org/wiki/COBOL), [Natural](http://www2.softwareag.com/corporate/products/adabas_natural/natural/default.aspx) and [Adabas](https://en.wikipedia.org/wiki/ADABAS). Modern systems can access data stored in EIS via two mechanisms: [SQL Gateway](http://www.softwareag.com/corporate/rc/rc_perma.asp?id=tcm:16-71132) and [EntireX Broker](https://resources.softwareag.com/application-modernization/webmethods-entirex). We initially planned to have the prototype use SQL Gateway, because that would involve no work within EIS’s infrastructure. But because Adabas is non-relational, only very crude queries were plausible, and that would have required extracting far too many records, in turn requiring further processing to return only the correct ones.
+
+The use of EntireX Broker means that new data being made available from EIS must have some corresponding Natural written to run on the mainframe. Our technical staff writes and maintains these, so prepared a simple Natural “stub” to extract data to be delivered via EntireX Broker. Because EntireX Broker isn’t web-facing, creating new API methods requires that we update a thin web-service layer that relays this data from EntireX to an HTTP interface. We intend to continue to perform this work as needed, and do not expect vendors to write Natural or otherwise perform any work on the EIS mainframe.
+
+The data—returned from our API, relayed from EntireX Broker, relayed from EIS—looks like this:
+
+```xml
+<cHES18F01 xmlns="http://schemas.datacontract.org/2004/07/AE_WebService.AE_WebService" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <inClientFName>JANE</inClientFName>
+  <inclientDob>20011201</inclientDob>
+  <inclientLName>DOE</inclientLName>
+  <inclientMName/>
+  <inclientSex>F</inclientSex>
+  <inclientSsn>123456789</inclientSsn>
+  <optDESCRIPTION/>
+  <optOPTION>00</optOPTION>
+</cHES18F01>
+```
+
+Our prototype includes [functionality to issue queries to that EIS API](https://github.com/AlaskaDHSS/ProtoWebApi/blob/master/AKRestAPI/Controllers/EISController.cs).

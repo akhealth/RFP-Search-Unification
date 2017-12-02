@@ -73,7 +73,7 @@ jon.geselle@alaska.gov<br>
 - [Sec. 4.02	Introduction](#4.02)
 - [Sec. 4.03	Technical Understanding and Approach](#4.03)
 - [Sec. 4.04	Project Management Approach](#4.04)
-- [Sec. 4.05	Aproach to User Interface and User Experience Design](#4.05)
+- [Sec. 4.05	Approach to User Interface and User Experience Design](#4.05)
 - [Sec. 4.06	Staffing Plan](#4.06)
 - [Sec. 4.07	Similar Experience and Qualifications](#4.07)
 - [Sec. 4.08	Verbal Presentation](#4.08)
@@ -825,7 +825,7 @@ v. Research - Describe an overview of your research process and how that will ti
 
 Project Management Approach is included as part of your 9-page limitation.
 
-### <a name="4.05"></a>Sec. 4.05 Aproach to User Interface and User Experience Design
+### <a name="4.05"></a>Sec. 4.05 Approach to User Interface and User Experience Design
 
 Proposals must contain information that describes how you will perform user experience and user interface design as a part of the overall user reaserch. The proposal should also contain information about how this research will be translated into relevant user stories and ultimately into working software.
 

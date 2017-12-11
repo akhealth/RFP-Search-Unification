@@ -827,7 +827,7 @@ Project Management Approach is included as part of your 9-page limitation.
 
 ### <a name="4.05"></a>Sec. 4.05 Approach to User Interface and User Experience Design
 
-Proposals must contain information that describes how you will perform user experience and user interface design as a part of the overall user reaserch. The proposal should also contain information about how this research will be translated into relevant user stories and ultimately into working software.
+Proposals must contain information that describes how you will perform user experience and user interface design as a part of the overall user research. The proposal should also contain information about how this research will be translated into relevant user stories and ultimately into working software.
 
 Approach to User Interface and User Experience Design is included as part of your 9-page limitation.
 

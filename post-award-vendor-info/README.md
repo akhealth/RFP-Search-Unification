@@ -32,7 +32,7 @@ We received responses from a number of firms that fit the bill.  They also asked
 
 In early September we began posting different drafts of documents related to the first procurement, including a statement of work that describes the scope and a Quality Assurance Plan that describes Alaska's approach to working with the selected vendor.  Our product teams will continue to post more information about the progress being made during the initial prototype and other overarching efforts going on to prepare Alaska to begin working with vendors on the first module.  Interested vendors weighed in on the draft RFP documents via [GitHub issues](https://github.com/AlaskaDHSS/RFP-Search-Unification/issues) and we made adjustments as necessary to improve the final RFP.
 
-On Friday, November 3, we released the final RFP for the first [module to improve the search functionality for state workers](https://github.com/AlaskaDHSS/RFP-Search-Unification).  We received proposals from 6 companies and [awarded the first contract to Resource Data, Inc.](https://github.com/AlaskaDHSS/EIS-Modernization/blob/master/vendor-info/RFP-Search-Unification-Award.md)
+On Friday, November 3, we released the final RFP for the first [module to improve the search functionality for state workers](https://github.com/AlaskaDHSS/RFP-Search-Unification).  We received proposals from 6 companies and [awarded the first contract to Resource Data, Inc.](https://github.com/AlaskaDHSS/EIS-Modernization/blob/ffe20eeb7f7ca2b3b5606ddc5ee26838ee05f80f/vendor-info/RFP-Search-Unification-Award.md)
 
 ### What's next?
 

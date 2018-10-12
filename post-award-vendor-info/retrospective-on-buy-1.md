@@ -1,7 +1,7 @@
 # Lessons Learned From "Search" Procurement
 One of the goals of an agile organization is to continuously improve, by reflecting on what's happened at the end of an iteration. In government this is normally called a "lessons learned" session. The Alaska and 18F Medicaid EIS Modernization product team has been doing this at the end of every two-week sprint by holding a "retrospective" on what's worked and what needs to be improved. The Alaska team has been open by default on this project, so that stakeholders and vendors can see what progress has been made, and submit feedback.
 
-With transparency in mind, please see our [Lessons Learned](https://github.com/AlaskaDHSS/EIS-Modernization/blob/master/vendor-info/Post-Mortem_on_the_first_Alaska_buy.v2.pdf) document that summarizes our internal reflections on [the first procurement](https://github.com/AlaskaDHSS/RFP-Search-Unification). 
+With transparency in mind, please see our [Lessons Learned](Post-Mortem_on_the_first_Alaska_buy.v2.pdf) document that summarizes our internal reflections on [the first procurement](https://github.com/AlaskaDHSS/RFP-Search-Unification). 
 
 In addition, we asked vendors for their feedback on the following questions:  
 
